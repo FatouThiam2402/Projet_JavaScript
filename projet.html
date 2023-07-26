@@ -1,0 +1,175 @@
+<!Doctype>
+<html lang="fr">
+	<head>
+		<meta charset="utf-8">
+		<title> Projet JS</title>	
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+
+	<body>
+		<div id="contener">
+			<div id="div_left">
+				<input id="recherche" type="text" name="rechercher" placeholder="rechercher">
+				<div id="les_bouttons">
+					<button id="enseignant">
+						<div id="entete_btn">
+							<div><img  id="icons_color" src="icons/enseign.svg"></div>
+							<div>6</div>
+						</div>
+						<div id="end_btn">
+							<div>Enseign.</div>
+							<div id="div_plus">+</div>
+						</div>
+					</button>	
+					<button id="salle">
+						<div id="entete_btn">
+							<div><img  id="icons_color" src="icons/salle.svg"></div>
+							<div>6</div>
+						</div>
+						<div id="end_btn">
+							<div>Salles.</div>
+							<div id="div_plus">+</div>
+						</div>
+					</button>
+					<button id="classe">
+						<div id="entete_btn">
+							<div><img  id="icons_color" src="icons/classe.svg"></div>
+							<div>6</div>
+						</div>
+						<div id="end_btn">
+							<div>Classes</div>
+							<div id="div_plus">+</div>
+						</div>
+					</button>
+					<button id="module">
+						<div id="entete_btn">
+							<div><img  id="icons_color" src="icons/module.svg"></div>
+							<div>6</div>
+						</div>
+						<div id="end_btn">
+							<div>Modules</div>
+							<div id="div_plus">+</div>
+						</div>
+					</button>
+				
+				</div>
+				<select id="listes_element">
+
+				</select>
+			</div>
+			<div id="div_right">
+				<div id="entete_planning">	
+						<div id="planning_toggle">
+							<div id="planning">
+								<h2>Planning:</h2>
+								<h2 id="affichage">a gerer en js</h2>
+							</div>
+							<div class="switch">
+								<input type="checkbox" name="">
+								<span class="slider round"></span>
+							</div>
+					</div>
+					<div id="bre_cours"><span id="nombre">2</span> cours</div>
+				</div>
+
+				<div id="les_heures">
+					<div id="div_8H">8H</div>
+					<div>9H</div>
+					<div>10H</div>
+					<div>11H</div>
+					<div>12H</div>
+					<div>13H</div>
+					<div>14H</div>
+					<div>15H</div>
+					<div>16H</div>
+					<div id="div_17H">17H</div>
+				</div>
+				<div id="les_jours">
+					<div id="lundi">
+						<div id="div_noir">
+							<span>LUNDI</span>
+							<button class="ajouter" id="ajouter_dans_lundi">+</button>
+						</div>
+						<div id="div_gris" class="LUNDI" ></div>
+					</div>
+					<div id="mardi">
+						<div id="div_noir">
+							<span>MARDI</span>
+							<button class="ajouter" id="ajouter_dans_mardi">+</button>
+						</div>
+						<div id="div_gris" class="MARDI"></div>
+					</div>
+					<div id="mercredi">
+						<div id="div_noir">
+							<span>MERCREDI</span>
+							<button class="ajouter" id="ajouter_dans_mercredi">+</button>
+						</div>
+						<div id="div_gris" class="MERCREDI" ></div>
+					</div>
+					<div id="jeudi">
+						<div id="div_noir">
+							<span>JEUDI</span>
+							<button class="ajouter" id="ajouter_dans_jeudi">+</button>
+						</div>
+						<div id="div_gris" class="JEUDI" ></div>
+					</div>
+					<div id="vendredi">
+						<div id="div_noir">
+							<span>VENDREDI</span>
+							<button class="ajouter" id="ajouter_dans_vendredi">+</button>
+						</div>
+						<div id="div_gris" class="VENDREDI"></div>
+					</div>
+					<div id="samedi">
+						<div id="div_noir">
+							<span>SAMEDI</span>
+							<button class="ajouter" id="ajouter_dans_samedi">+</button>
+						</div>
+						<div id="div_gris" class="SAMEDI" ></div>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+		<div class="contener_formulaire">
+				<div class="modal_title">
+					<div class="modal">Modal Title</div>
+				</div>
+				<div class="div_formulaire">
+					<form>
+						<div class="div_module">
+							<label for="module">Module</label>
+							<select  id="select_module" name="module"></select>
+						</div>
+						<div>	
+
+							<label for="enseignant">Enseignant</label>
+							<select  id="select_enseignant" name="enseignant"></select>
+						</div>
+						<div>
+							<label for="salle">Salle</label>
+							<select  id="select_salle" name="salle"></select>
+						</div>
+						<div>
+							<label for="heure_debut">Heure de Début</label>
+							<select  id="select_heureDebut" name="heure_debut"></select>
+						</div>
+						<div>
+							<label for="heure_fin">Heure de Fin</label>
+							<select id="select_heureFin" name="heure_fin"></select>
+						</div>
+					</form>
+
+				</div>
+				<div class="fotter_formulaire">
+					<div class="button_ajout_annuler">
+						<input id="boutton_ajouter" type="button" value="Ajouter">
+						<input id="boutton_annuler" type="button" value="Annuler">
+					</div>	
+				</div>
+				
+			</div>
+
+		<script type="text/javascript" src="script.js"></script>
+	</body>
+</html>

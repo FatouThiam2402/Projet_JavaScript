@@ -1,0 +1,351 @@
+body{
+		background-color: grey;
+		height: 100%;
+		width: 100%;
+}
+
+#contener{
+	margin-top: 100px;
+	height: 800px;
+	width:1300px;
+	display: flex;
+	flex-direction: row;
+	margin-left: 10%;
+	z-index: 1;
+}
+
+#div_left{
+	background-color: rgba(64, 61, 62, 255);
+	display: flex;
+	/*justify-content: space-between;*/
+	flex-direction: column;
+	width: 300px;
+	height: 800px;
+	border-radius: 10px 0px 0px 10px;
+}
+
+#div_right{
+	
+	width: 1000px;
+	height: 800px;
+	background-color:black;
+	border-radius: 0px 10px 0px 0px;
+}
+
+#recherche{
+	margin-top: 10%;
+	margin-left: 10%;
+	width: 200px;
+	height: 30px;
+	background-color:darkgray;
+	border-radius: 10px 10px 10px 10px;
+	text-decoration: none;
+	
+}
+
+#les_bouttons{
+	margin-top: 10%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	height: 200px;
+	width:270px;
+}
+#listes_element{
+	margin-top: 10px;
+	margin-left: 5%;
+	width: 240px;
+	height: 30px;
+	border-radius: 10px 10px 10px 10px;
+	text-decoration: none;
+	
+}
+
+#enseignant{
+	margin-left: 20px;
+	height: 80px;
+	width: 120px;
+	border-radius: 10px 10px 15px 10px;
+	color: white;
+	background-color: darkgray;
+}
+#salle{
+	margin-left: 10px;
+	height: 80px;
+	width: 120px;
+	border-radius: 10px 10px 10px 15px;
+	color: white;
+	background-color: darkgray;
+}
+
+#classe{
+	margin-left: 20px;
+	height: 80px;
+	width: 120px;
+	border-radius: 10px 15px 10px 10px;
+	color: white;
+	background-color: darkgray;
+	
+}
+#module{
+	margin-left: 10px;
+	height: 80px;
+	width: 120px;
+	border-radius: 15px 10px 10px 10px;
+	color: white;
+	background-color: darkgray;
+
+}
+
+
+#entete_btn{
+	margin-top: -10px;
+	display: flex;
+	justify-content: space-between;
+}
+
+#end_btn{
+	margin-top: 10px;
+	display: flex;
+	
+}
+
+#div_plus{
+	margin-left: 20px;
+}
+
+#entete_planning{
+	width: 1000px;
+	height: 150px;
+	color: white;
+	font-weight: bold;
+	background-color: black;
+	display: flex;
+	flex-direction: column;
+	border-radius: 0px 20px 0px 0px;
+	
+}
+
+#les_heures{
+background-color: dimgray;
+width: 1000px;
+height: 46px;
+border-radius: 10px 10px 10px 10px;
+display: flex;
+color: white;
+font-weight: bold;
+justify-content: space-between;
+align-items: center;
+
+}
+
+/* temps_8H_17H = 1000px -150px - 20px */
+
+#div_8H{
+	margin-left: 150px;
+}
+#div_17H{
+	margin-right: 20px;
+}
+#les_jours{
+
+}
+
+
+#planning_toggle{
+display: flex;
+justify-content: space-between;
+
+}
+#planning{
+	display: flex;
+	flex-direction: row;
+}
+
+#toggle{
+	margin-top: 20px;
+	margin-right: 20px;
+}
+#bre_cours{
+	margin-top: 40px;
+	margin-left: 10px;
+}
+
+#lundi,#mardi,#mercredi,#jeudi,#vendredi, #samedi{
+	width: 1000px;
+	height: 100px;
+	background-color: ;
+	display: flex;
+	justify-content: space-between;
+	
+	border-style: darkgray;
+	
+}
+
+
+
+#div_noir{
+	width: 150px;
+	height: 100px;
+	background-color:black ;
+	border-radius: 20px 0px 0px 20px;
+	border:1px solid white;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: white;
+	font-weight: bold;
+}
+
+
+#div_gris{
+	width: 850px;
+	height: 100px;
+	background-color:rgba(94,103 ,103 ,255) ;
+	border-radius: 0px 20px 20px 0px;
+	border:1px solid white;
+}
+
+
+#icons_color{
+font-style: white;	
+}
+
+
+#toggle{
+	
+}
+
+.duree_lundi{
+	
+	display: flex;
+}
+
+.ajouter{
+	font-size: 30px;
+	color: green;
+	font-weight: bold;
+	text-decoration: none;
+	background-color: unset;
+	border: none;
+	margin-right: 10px;
+}
+
+.contener_formulaire{
+
+	height: 500px;
+	width: 50%;
+	margin-top: -627px;
+	margin-left: 466px;
+	color: white;
+	font-size: 20px;
+	background-color: rgba(68, 68, 68, 0.85);
+	justify-content: space-between;
+	display: none;
+	z-index:2;
+	position: absolute;
+
+}
+
+.modal_title{
+	height: 50px;
+	background-color: rgba(0, 0, 0, 0.7);
+	text-align: center;
+
+}
+
+.modal{
+
+	margin-top:-20px;
+}
+.div_formulaire{
+	height: 400px;
+	gap:15px;
+	
+}
+
+form {
+	
+	margin-top: 60px;
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+	justify-content:space-between; 
+	margin-left: 70px;
+
+}
+ form select{
+	width: 100px;
+	float: right;
+	margin-right: 70px;
+}
+
+
+
+.fotter_formulaire{
+
+	height: 50px;
+	background-color: rgba(0, 0, 0, 0.7);
+	
+	
+
+}
+
+.button_ajout_annuler{
+	align-items: center;
+	margin-left: 250px;
+}
+
+	/*css du  boutton toggle */
+
+
+.switch{
+	position: relative;
+  	display: inline-block;
+  	width: 60px;
+  	height: 34px;
+}
+
+
+.switch input {
+
+	opacity: 0;
+  	width: 0;
+  	height: 0;
+}
+
+
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
